@@ -1,0 +1,51 @@
+@import "./startBtn.css";
+
+.hero-container{
+    height: 80vh;
+    margin: 1rem;
+    display: flex;
+}
+
+.hero-content{
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 2rem;
+    width: 38%;
+    height: 100%;
+    align-items:center;
+}
+
+.left-part h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    /* border: 1px solid; */
+}
+
+.left-part p{
+    font-size: 1.5rem;
+    /* width: 75%; */
+    /* height: 70%; */
+    /* border: 1px solid; */
+    /* text-align: start; */
+}
+.right-part{
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.right-part img{
+    height: 100%;
+    width: 100%;
+}
+

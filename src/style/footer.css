@@ -1,0 +1,76 @@
+
+*{
+    list-style: none;
+}
+
+.footer {
+    margin: 1rem;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1040px;
+    background: #07182e;
+}
+
+.mail-container{
+    align-content: center;
+}
+
+.mail-container #email{
+    height: 5vh;
+    width: 15vw;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.mail-container #email-btn{
+    height: 5vh;
+    width: 7vw;
+    margin: 1rem;
+    color: white;
+    border-radius: .4rem;
+    background-color: blue;
+}
+
+#email-btn:hover{
+    background: #031a8b;
+}
+
+
+.rights-section{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1040px;
+    align-items: center; 
+    flex-direction: column; 
+    background: #07182e;
+}
+
+.container>h3{
+    color: white;
+}
+.container>ul>li{
+    color: white;
+}
+.container>ul>li>a{
+    color: white;
+}
+.container>ul>li>a:hover{
+    color: rgb(5, 25, 108);
+}
+
+.rights-section>p{
+    color: white;
+}
+.rights-section>p>a{
+    color: white;
+}
+.rights-section>p>a:hover{
+    color: rgb(5, 25, 108);
+}
+
+.contact-container container{
+    gap: 1rem;
+}

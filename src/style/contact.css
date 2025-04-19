@@ -1,0 +1,11 @@
+.container{
+    margin: 1rem;
+}
+
+.contac-container{
+    margin: 0 auto;
+    max-width: 1040px;
+    height: 45vh;
+    text-align: center;
+
+}

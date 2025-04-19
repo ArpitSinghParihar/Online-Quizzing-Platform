@@ -1,0 +1,16 @@
+@import './src/style/header.css';
+@import './src/style/main.css';
+@import "./src/style/feature.css";
+@import "./src/style/footer.css";
+@import "./src/style/registrationPage.css";
+@import "./src/style/about.css";
+@import "./src/style/contact.css";
+@import "./src/style/loginPage.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
